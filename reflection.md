@@ -16,9 +16,9 @@ Document at least 3 bugs you found. Add rows as needed.
 
 | Input | Expected Behavior | Actual Behavior | Console Output / Error |
 |-------|-------------------|-----------------|------------------------|
-|200.   | Go lower hint/error   Go higher hint         None
-| -1    | go higher hint/error. go lower hint.         None 
-| 33    | "Won"                 attribute error     
+|200.   | Go lower hint/error     Go higher hint         None
+| -1    | go higher hint/error.   go lower hint.         None 
+| 33    | "Won"                   attribute error     
 
 Error for 3rd: 
 AttributeError: st.session_state has no attribute "statupis". Did you forget to initialize it? More info: https://docs.streamlit.io/develop/concepts/architecture/session-state#initialization
